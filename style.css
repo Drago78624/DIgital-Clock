@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background-image: url("bg.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  display: flex;
+  font-size: 5rem;
+  align-items: center;
+  color: white;
+}
+
+.colon {
+  margin: 0 1rem;
+}
+
+.hour-container,
+.minutes-container,
+.seconds-container {
+  /* background-color: white; */
+  background: rgba(255, 255, 255, 0.25);
+  padding: 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.ampm-container {
+  background-color: #ffbf00;
+  font-size: 2rem !important;
+  margin-left: 2rem;
+  padding: 0.2rem 1.5rem;
+  color: black;
+  margin-top: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
